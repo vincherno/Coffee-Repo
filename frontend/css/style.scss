@@ -1,0 +1,53 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 60px;
+}
+
+#result {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 35px;
+
+    .coffee-article {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        border: 2px solid black;
+        padding: 30px;
+        background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(255, 166, 178, 1) 100%);
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
+        color: white;
+    }
+
+    img {
+        width: 200px;
+        margin-top: 30px;
+        border: 2px solid black;
+    }
+}
+
+#add-coffee-form {
+    margin-top: 35px;
+
+    input {
+        border-radius: 5px;
+    }
+}
